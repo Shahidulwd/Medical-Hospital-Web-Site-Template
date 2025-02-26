@@ -1,0 +1,312 @@
+@font-face {
+     font-family: OpenSans-Regular;
+     src: url(../fonts/OpneSans-Regular.ttf);
+     font-family: Poppins-Regular;
+     src: url(../fonts/Poppins-Regular.ttf);
+     font-family: Montserrat-Regular;
+     src: url(../fonts/Montserrat-Regular.ttf);
+}
+ .menunav {
+     height: auto;
+     background-color: white;
+}
+ .iconbox {
+     background-color: #1A9BDC;
+     height: 48px;
+     width: 48px;
+     border-radius: 50px;
+     padding-top: 10px;
+     padding-left: 1px;
+}
+ .toptext1 {
+     font-size: 10pt;
+     font-family: OpenSans-Regular;
+     font-weight: bold;
+     padding-left: 10px;
+     padding-top: 5px;
+}
+ .toptext2 {
+     font-size: 10pt;
+     padding-left: 10px;
+}
+ .navbar ul {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+}
+ .navbar ul a {
+     color: black;
+     text-decoration: none;
+     margin: 0px 5px;
+     font-size: 10pt;
+     font-family: Poppins-Regular;
+     font-weight: bold;
+}
+ .navbar ul a:hover {
+     color: red;
+}
+ .menu1 {
+     height: auto;
+     background-color: #CAD3E5;
+     background-position: center;
+     background-size: cover;
+}
+ .m1text1 {
+     padding-top: 100px;
+     margin: 0px 25px;
+     font-size: 30pt;
+     font-family: Montserrat-Regular;
+}
+ .m1text2 {
+     font-size: 12pt;
+     font-family: OpenSans-Regular;
+     padding-top: 10px;
+     margin: 0px 85px;
+}
+ .button1 {
+     background-color: #1A9BDC;
+     color: white;
+     border: none;
+     border-radius: 50px;
+     padding: 6px 16px;
+     font-size: 10pt;
+     text-align: center;
+     font-family: Montserrat-Regular;
+}
+ .button1:hover {
+     background-color: #A21AF0;
+}
+ .menu2 {
+     height: auto;
+     background-color: #43B1D2;
+     background-position: center;
+     background-size: cover;
+}
+ .m2text1 {
+     font-size: 18pt;
+     color: white;
+     padding-top: 7px;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m2text2 {
+     font-size: 12pt;
+     font-family: OpenSans-Regular;
+     padding-top: 5px;
+     margin: 0px 30px;
+}
+ .menu3 {
+     height: auto;
+     background-color: white;
+     background-position: center;
+     background-size: cover;
+}
+ .m3text1 {
+     color: black;
+     font-size: 25pt;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m3text2 {
+     font-size: 12pt;
+     color: #6F6F6E;
+     font-family: OpenSans-Regular;
+}
+ .m3text3 {
+     font-size: 15pt;
+     color: #6F6F6E;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m3text4 {
+     font-size: 12pt;
+     color: #6F6F6E;
+     font-family: OpenSans-Regular;
+}
+ .menu4 {
+     height: auto;
+     background-image: url(../Image/m4bg.png);
+     background-position: center;
+     background-size: cover;
+}
+ .m4text1 {
+     font-size: 30pt;
+     color: white;
+     padding-top: 10px;
+}
+ .hr1 {
+     height: 5px;
+     width: 55px;
+     background-color: white;
+     border: 0;
+     display: inline-block;
+     opacity: 100%;
+}
+ .m4text2 {
+     color: white;
+     font-size: 15``pt;
+     font-family: Montserrat-Regular;
+}
+ .menu5 {
+     height: auto;
+     background-color: white;
+     background-position: center;
+     background-size: cover;
+}
+ .m5text1 {
+     font-size: 22pt;
+     color: #494949;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m5text2 {
+     font-size: 12pt;
+     text-align: justify;
+     font-family: OpenSans-Regular;
+}
+ .m5text3 {
+     font-size: 14pt;
+     padding-top: 15px;
+}
+ .m5text4 {
+     font-size: 12pt;
+     color: #0087BE;
+     font-family: Montserrat-Regular;
+}
+ .m5text5 {
+     font-size: 11pt;
+     text-align: justify;
+     font-family: OpenSans-Regular;
+}
+ .m5text6 {
+     font-size: 22pt;
+     padding-left: 15px;
+     color: #494949;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m5text7 {
+     font-size: 12pt;
+     padding-left: 15px;
+     text-align: justify;
+     font-family: OpenSans-Regular;
+}
+ .m5text8 {
+     background-color: #1A9BDC;
+     color: white;
+     border: none;
+     border-radius: 50px;
+     padding: 5px 0px;
+}
+ .m5text9 {
+     padding-top: 8px;
+     font-size: 12pt;
+}
+ .m5text10 {
+     background-color: #E2E2E2;
+     color: black;
+     border: none;
+     border-radius: 50px;
+     padding: 5px 0px;
+}
+ .menu6 {
+     height: auto;
+     background-image: url(../Image/m6bg.png);
+     background-position: center;
+     background-size: cover;
+}
+ .m6text1 {
+     font-size: 35pt;
+     color: white;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m6text2 {
+     font-size: 12pt;
+     color: white;
+     font-family: OpenSans-Regular;
+}
+ .menu7 {
+     height: auto;
+     background-color: white;
+     background-position: center;
+     background-size: cover;
+}
+ .m7text1 {
+     font-size: 35pt;
+     color: black;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .m7text2 {
+     font-size: 12pt;
+     color: black;
+     font-family: OpenSans-Regular;
+}
+ .m7text3 {
+     font-size: 15pt;
+     font-family: Montserrat-Regular;
+}
+ .m7text4 {
+     font-size: 10pt;
+     font-family: Montserrat-Regular;
+}
+ .menu8 {
+     height: auto;
+     background-color: #E2E2E2;
+     background-position: center;
+     background-size: cover;
+}
+ .m8text {
+     font-size: 14pt;
+     padding-top: 25px;
+     padding-bottom: 15px;
+     font-family: Montserrat-Regular;
+     font-weight: bold;
+}
+ .footer {
+     height: auto;
+     background-color: #252525;
+     background-position: center;
+     background-size: cover;
+}
+ .footertext {
+     font-size: 10pt;
+     text-align: justify;
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+    /* Light weight */
+}
+ .footer-text1 li {
+     color: white;
+     list-style: none;
+     padding: 3px 0px;
+     font-size: 10pt;
+     font-family: 'Babas Neue', sans-serif;
+     font-weight: bold;
+}
+ .pl-10 {
+     padding-left: 10px;
+}
+ .pl-5 {
+     padding-left: 5px;
+}
+ .pb-100 {
+     padding-bottom: 100px;
+}
+ .bg1 {
+     background-color: #3FB6C6;
+}
+ .bg2 {
+     background-color: #3CBBBB;
+}
+ .bg3 {
+     background-color: #37C3A8;
+}
+ .pt-75 {
+     padding-top: 75px;
+}
+ .pb-75 {
+     padding-bottom: 75px;
+}
